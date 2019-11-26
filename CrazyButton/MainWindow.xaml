@@ -1,0 +1,12 @@
+﻿<Window x:Class="CrazyButton.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CrazyButton"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Loaded="mainWindow">
+    <Canvas x:Name="canvas" Height="570.4" Width="793.6">
+        <Button x:Name="PushButton" Content="Поймай меня" Canvas.Left="0" Canvas.Top="0" Width="100" Height="30" FontSize="10" Click="PushMe_Click" MouseEnter="Button_MouseEnter"/>
+    </Canvas>
+</Window>
