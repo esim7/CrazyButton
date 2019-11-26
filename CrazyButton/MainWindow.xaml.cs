@@ -29,20 +29,20 @@ namespace CrazyButton
         public MainWindow()
         {
             InitializeComponent();
-            AnimationX.Duration = TimeSpan.FromSeconds(0.5);
-            AnimationY.Duration = TimeSpan.FromSeconds(0.15);
+            AnimationX.Duration = TimeSpan.FromSeconds(0.1);
+            AnimationY.Duration = TimeSpan.FromSeconds(0.3);
             transformGroup.Children.Add(new TranslateTransform(0, 0));
         }
 
         private void mainWindow(object sender, RoutedEventArgs e)
         {
-            //canvas.Width = Width - 6.4;
-            //canvas.Height = Height - 45;
+            canvas.Width = Width - 6.4;
+            canvas.Height = Height - 45;
         }
 
         private void PushMe_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Молодец ты поймал меня :)");
+            MessageBox.Show("Как тебе это удалось??? :)");
         }
 
         private void Button_MouseEnter(object sender, MouseEventArgs e)
